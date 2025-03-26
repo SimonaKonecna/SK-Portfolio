@@ -1,0 +1,287 @@
+:root {
+  background-color: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+}
+.top-bar {
+  width: 110%;
+  height: 8.5rem;
+  background-color: #470063;
+  border-radius: 90rem;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+  z-index: -2;
+  position: absolute;
+  margin-left: -1.5rem;
+  margin-top: -2rem;
+}
+.logo {
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+.zarovnanitlacitek {
+  text-align: right;
+  z-index: -1;
+  padding-top: 2rem;
+}
+
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+  gap: 3rem;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #ff0066;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #f5f5f5;
+  gap: 1rem;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #f5f5f5;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #ff0066;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.95);
+}
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #ff0066;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #f5f5f5;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #f5f5f5;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #ff0066;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.95);
+}
+.en {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.en:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #fc7a1e;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.en span {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #f5f5f5;
+}
+
+.en svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #f5f5f5;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.en:hover:before {
+  width: 100%;
+  background: #fc7a1e;
+}
+
+.en:hover svg {
+  transform: translateX(0);
+}
+
+.en:active {
+  transform: scale(0.95);
+}
+.loader {
+  position: relative;
+  height: 190px;
+  width: 200px;
+  position: absolute;
+  z-index: 0;
+  padding-top: 2rem;
+  margin-left: 3rem;
+  border-bottom: 0.3rem solid #ff0066;
+  border-radius: 0.1rem;
+  box-sizing: border-box;
+  animation: drawLine 10s linear infinite;
+}
+.loader:before {
+  content: "";
+  position: absolute;
+  left: calc(100% + 60px);
+  bottom: -6px;
+  width: 16px;
+  height: 100px;
+
+  border-radius: 20px 20px 50px 50px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#ff0066 6px, transparent 0),
+    linear-gradient(45deg, rgba(0, 0, 0, 0.02) 49%, white 51%),
+    linear-gradient(315deg, rgba(0, 0, 0, 0.02) 49%, white 51%),
+    linear-gradient(
+      to bottom,
+      #ffffff 10%,
+      #fc7a1e 10%,
+      #ff0066 90%,
+      #ffffff 90%
+    );
+  background-size: 3px 3px, 8px 8px, 8px 8px, 16px 88px;
+  background-position: center bottom, left 88px, right 88px, left top;
+  transform: rotate(25deg);
+  animation: pencilRot 10s linear infinite;
+}
+
+@keyframes drawLine {
+  0%,
+  100% {
+    width: 0px;
+  }
+  45%,
+  55% {
+    width: 230px;
+  }
+}
+
+@keyframes pencilRot {
+  0%,
+  45% {
+    bottom: -6px;
+    left: calc(100% + 14px);
+    transform: rotate(25deg);
+  }
+  55%,
+  100% {
+    bottom: -12px;
+    left: calc(100% + 16px);
+    transform: rotate(220deg);
+  }
+}
+.Hero {
+}
+.herotext {
+  text-align: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  color: #f5f5f5;
+  font-weight: 300;
+  position: absolute;
+  z-index: +1;
+  padding-top: 28rem;
+  padding-left: 32rem;
+}
+.claim h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px;
+  color: #ff0066;
+  font-weight: 200;
+  position: absolute;
+  z-index: +2;
+  padding-top: 2rem;
+  padding-left: 42rem;
+}
