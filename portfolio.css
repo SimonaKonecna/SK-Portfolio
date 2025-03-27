@@ -200,3 +200,16 @@ img {
   margin-left: 2rem;
   border-radius: 1rem;
 }
+.maskoti video {
+  position: absolut;
+  z-index: +3;
+  margin-top: 20rem;
+  margin-left: 2rem;
+  border-radius: 1rem;
+}
+.maskot img {
+  position: absolute;
+  z-index: 0;
+  right: 10rem;
+  width: 30rem;
+}
