@@ -3,17 +3,17 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .top-bar {
-  width: 103%;
+  width: 101%;
   height: 8.5rem;
   background-color: #470063;
-  border-radius: 5rem;
+  border-bottom-left-radius: 5rem;
   box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
     0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
     0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
   z-index: -2;
   position: absolute;
-  margin-left: -1.5rem;
   margin-top: -2rem;
+  margin-left: -1rem;
 }
 .logo {
   position: absolute;

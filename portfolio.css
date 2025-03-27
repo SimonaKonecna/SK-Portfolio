@@ -3,17 +3,17 @@
   font-family: "Montserrat", sans-serif;
 }
 .top-bar {
-  width: 110%;
+  width: 101%;
   height: 8.5rem;
   background-color: #470063;
-  border-radius: 90rem;
+  border-bottom-left-radius: 5rem;
   box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
     0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
     0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
   z-index: -2;
   position: absolute;
-  margin-left: -1.5rem;
   margin-top: -2rem;
+  margin-left: -1rem;
 }
 .logo {
   position: absolute;
@@ -199,6 +199,7 @@ img {
   margin-top: 25rem;
   margin-left: 2rem;
   border-radius: 1rem;
+  margin-bottom: 5rem;
 }
 .maskoti video {
   position: absolut;
@@ -212,4 +213,11 @@ img {
   z-index: 0;
   right: 10rem;
   width: 30rem;
+}
+.moveconcept img {
+  position: absolute;
+  z-index: 1;
+  margin-top: 10rem;
+  margin-left: ;
+  width: 100%;
 }
